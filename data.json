@@ -1,0 +1,80 @@
+{"projects": [
+    {
+    "id":1,
+    "project_name": "Random Quotes Generator",
+    "description": "Shows a random quote every 5 seconds or when a button is pressed by the user",
+    "technologies": ["HTML", "JavaScript", "CSS"],
+    "live_link": "https://virgile-r.github.io/RandomQuoteGenerator/",
+    "github_link":"https://github.com/Virgile-R/RandomQuoteGenerator",
+    "image_urls":{
+        "main": "images/1/main.png",
+        "first": "images/1/first.png",
+        "gif": "images/1/video.apng"
+    }
+    },
+    {
+    "id":2,
+    "project_name": "Student List Example",
+    "description": "An example of a student registry website: includes a search and a next and previous button for easy navigation",
+    "technologies":["HTML", "JavaScript", "CSS"],
+    "live_link": "https://virgile-r.github.io/Student-List-Example/",
+    "github_link":"https://github.com/Virgile-R/Student-List-Example",
+    "image_urls":{
+        "main":"images/2/main.png",
+        "first":"images/2/first.png",
+        "gif":"images/2/video.apng"
+    }
+    },
+    {
+    "id":3,
+    "project_name": "Conference registration Example",
+    "description": "A webapp to handle registration at a conference, provides form validation on the client side and custom error messages",
+    "technologies":["HTML", "JavaScript", "CSS"],
+    "live_link":"https://virgile-r.github.io/Interactive-Form-Virgile-R/",
+    "github_link":"https://github.com/Virgile-R/Interactive-Form-Virgile-R",
+    "image_urls":{
+        "main":"images/3/main.png",
+        "first":"images/3/first.png",
+        "gif":"images/3/video.apng"
+    }
+    },
+    {
+    "id":4,
+    "project_name": "Phrase Hunter",
+    "description": "A simple game of hangman, accepts onscreen keyboard and keyboard inputs from users, changes the background randomly each time a new game is launched",
+    "technologies":["HTML", "JavaScript", "CSS", "OOP"],
+    "live_link":"https://virgile-r.github.io/Phrase-Hunter/",
+    "github_link":"https://github.com/Virgile-R/Phrase-Hunter",
+    "image_urls":{
+        "main":"images/4/main.png",
+        "first":"images/4/first.png",
+        "gif":"images/4/video.apng"
+    }
+    },
+    {
+    "id":5,
+    "project_name": "User list from an online API",
+    "description": "An example of API calls made to the randomuser.me API, handles error and async function",
+    "technologies":["HTML", "JavaScript", "CSS", "API Calls"],
+    "live_link":"https://virgile-r.github.io/Public-API-Request/",
+    "github_link":"https://github.com/Virgile-R/Public-API-Request",
+    "image_urls":{
+        "main":"images/5/main.png",
+        "first":"images/5/first.png",
+        "gif":"images/5/video.apng"
+    }
+    },
+    {
+        "id":6,
+        "project_name": "Scryfall and DnD bot for Discord",
+        "description": "Uses discord.py and the Scryfall and DND API to display cards from the MTG game and monster info for DnD",
+        "technologies":["Python", "Discord.py", "API Calls"],
+        "live_link":"https://github.com/Virgile-R/ScryfallTest",
+        "github_link":"https://github.com/Virgile-R/ScryfallTest",
+        "image_urls":{
+            "main":"images/6/main.png",
+            "first":"images/6/first.png",
+            "gif":"images/6/video.apng"
+        }
+    }
+]}
