@@ -1,9 +1,9 @@
-const express = require('express');
+//Error handler
 const globalErrorHandler = (err, req, res, next) => {
     
     if (err.status === 404){
         res.status = 404
-        res.render('not-found', {err})
+        res.render('page-not-found', {err})
     } else {
         err.message = 'There was an unexcepted error with your request, please try again later'
         res.status = 500

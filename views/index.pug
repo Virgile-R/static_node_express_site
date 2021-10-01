@@ -16,8 +16,8 @@ block content
       each project in projects
         .cell
             a(href=`/projects/${project.id}`)
-              img.thumbnail(src=`static/${project.image_urls.main}`, alt=`Thumbnail: ${project.project_name}`)
-              h5 #{project.project_name}
+              img.thumbnail(src=`static/${project.image_urls.thumbnail}`, alt=`Thumbnail: ${project.project_name}`)
+              h5 !{project.project_name}
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       
         //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
