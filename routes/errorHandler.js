@@ -1,4 +1,11 @@
-//Error handler
+//Error handlers
+const generic404Error = (req, res, next)  => {
+    const err = new Error('It appears you are lost. Maybe go back and visit my projects!')
+    err.status = 404
+    next(err)
+
+}
+
 const globalErrorHandler = (err, req, res, next) => {
     
     if (err.status === 404){
@@ -14,4 +21,4 @@ const globalErrorHandler = (err, req, res, next) => {
     }
 }
 
-module.exports = globalErrorHandler
+module.exports = {generic404Error, globalErrorHandler}

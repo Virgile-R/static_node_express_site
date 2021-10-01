@@ -15,7 +15,8 @@ const app = express()
 app.set('view engine', 'pug')
 app.use('/static', express.static(path.join(__dirname, 'public')))
 app.use(router)
-app.use(errorHandlers)
+app.use(errorHandlers.generic404Error)
+app.use(errorHandlers.globalErrorHandler)
 
 //launch the app on port 3000
 app.listen(3000, () =>{

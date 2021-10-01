@@ -1,6 +1,7 @@
 extends layout 
 block content
-    h1 #{err.message}
+    h1.error #{err.status}
+    p  #{err.message}
     a(href='/')
       span &larr;
       |  Back 
