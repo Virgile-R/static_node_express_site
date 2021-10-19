@@ -4,10 +4,10 @@ block content
 
   article.portfolio-intro
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
+   
     h1 My Web Portfolio
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
+    
     p This portfolio showcases the projects I had to complete to earn my degree as a fullstack JavaScript developper at #[a(href='http://teamtreehouse.com') TeamTreehouse.com ]. Be sure to checkout this site often for more projects or shoot me an email if you are interested in working with me!
 
 
@@ -18,12 +18,7 @@ block content
             a(href=`/projects/${project.id}`)
               img.thumbnail(src=`static/${project.image_urls.thumbnail}`, alt=`Thumbnail: ${project.project_name}`)
               h5 !{project.project_name}
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
-      
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
+    
 
         
 
